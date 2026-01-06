@@ -32,6 +32,12 @@
     color: #fff;
 }
 
+.btn:hover {
+    background-color: #000;
+    color: #d4d0d0;
+    transition: all .3s;
+}
+
 /* main style */
 header {
     background-color: #FFF8F3;
@@ -59,4 +65,9 @@ nav .menu a {
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+
+nav .menu a:hover {
+    color: #FD6E0A;
+    transition: .3s;
 }
