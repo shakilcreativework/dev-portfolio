@@ -71,3 +71,18 @@ nav .menu a:hover {
     color: #FD6E0A;
     transition: .3s;
 }
+
+/* hero area style */
+#banner {
+    /* border: 1px solid red; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
