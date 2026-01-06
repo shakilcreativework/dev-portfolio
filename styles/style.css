@@ -7,8 +7,31 @@
     box-sizing: border-box;
 }
 
-
+/* shared style */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+}
+
+.logo h2 {
+    font-size: 45px;
+}
+
+.color-orange {
+    color: #FD6E0A;
+}
+
+/* main style */
+header {
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+nav {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
 }
