@@ -304,3 +304,35 @@ footer .footer-container {
     border-radius: 5px;
     color: #757575;
 }
+
+/* hide for responsive */
+.hide {
+    display: none !important;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    /* about */
+    
+
+    /* skills */
+    #skills .skills-container {
+        width: 95%;
+    }
+
+    #about, #skills, #resume {
+        padding-top: 60px;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+    #skills .skills-container .skill-box {
+        flex-direction: column;
+    }
+
+    .skill-box .skill-card {
+        max-width: 100%;
+    }
+}
