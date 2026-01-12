@@ -313,7 +313,19 @@ footer .footer-container {
 /* responsive */
 @media screen and (max-width: 576px) {
     /* about */
-    
+    #about .about-container .about-info {
+        gap: 40px;
+    }
+
+    .about-info .info-card h4 {
+        font-size: 18px;
+    }
+
+    #about .about-container {
+        padding: 20px;
+        margin: 0px 10px;
+        width: 100%;
+    }
 
     /* skills */
     #skills .skills-container {
@@ -328,7 +340,7 @@ footer .footer-container {
         font-size: 30px;
     }
 
-    #skills .skills-container .skill-box {
+    #skills .skills-container .skill-box, #about .about-container .about-info {
         flex-direction: column;
     }
 
