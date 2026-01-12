@@ -328,7 +328,7 @@ footer .footer-container {
     }
 
     /* skills */
-    #skills .skills-container {
+    #skills .skills-container, footer .footer-container, #resume .resume-container {
         width: 95%;
     }
 
@@ -340,11 +340,27 @@ footer .footer-container {
         font-size: 30px;
     }
 
-    #skills .skills-container .skill-box, #about .about-container .about-info {
+    #skills .skills-container .skill-box, #about .about-container .about-info, footer .footer-container, #resume .resume-container {
         flex-direction: column;
     }
 
     .skill-box .skill-card {
         max-width: 100%;
     }
+
+    /* resume */
+
+    #resume .section-heading h2 {
+        font-size: 28px;
+    }
+
+    .resume-card {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .footer-container form input[type="text"], .footer-container form textarea {
+        width: 100%;
+    }
+
 }
